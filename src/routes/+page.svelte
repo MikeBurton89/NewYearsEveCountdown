@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Countdown from "../Countdown.svelte";
+    import ClockBar from "../ClockBar.svelte";
+</script>
+<ClockBar/>
+<Countdown/>
+
+
