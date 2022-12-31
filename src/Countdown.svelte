@@ -26,11 +26,11 @@
 
 <div class="flex items-center justify-center h-screen">
 	{#if days < 1}
-		<h1 class="text-white text-9xl font-sans font-bold  text-shadow-lg shadow-amber-200">
+		<h1 class="text-white text-9xl font-sans font-bold drop-shadow text-shadow-lg shadow-blue-400">
 			{`${hh} : ${mm} : ${ss}`}
 		</h1>
 	{:else}
-		<h1 class="text-white text-9xl font-sans font-bold text-shadow-lg shadow-amber-200">
+		<h1 class="text-white text-9xl font-sans font-bold text-shadow-lg shadow-blue-400">
 			{`${days} : ${hours} : ${mm} : ${ss}`}
 		</h1>
 	{/if}
