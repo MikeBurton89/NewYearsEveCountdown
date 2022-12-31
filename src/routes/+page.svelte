@@ -1,8 +1,9 @@
 <script>
-    import Countdown from "../Countdown.svelte";
-    import ClockBar from "../ClockBar.svelte";
+	import Countdown from '../Countdown.svelte';
+	import ClockBar from '../ClockBar.svelte';
 </script>
-<ClockBar/>
-<Countdown/>
 
-
+<div class='bg-slate-800'>
+	<ClockBar />
+	<Countdown />
+</div>
