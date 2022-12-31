@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	let countdownDate = new Date('Jan 1, 2023 00:00:00').getTime();
+	let countdownDate = new Date('Jan 01, 2023 00:00:01').getTime();
 	$: currentDate = new Date();
 	$: dateForDistance = currentDate.getTime();
 	console.log(currentDate);
@@ -26,11 +26,11 @@
 
 <div class="flex items-center justify-center h-screen">
 	{#if days < 1}
-		<h1 class="text-red-500 text-9xl">
+		<h1 class="text-white text-9xl font-sans font-bold  text-shadow-lg shadow-amber-200">
 			{`${hh} : ${mm} : ${ss}`}
 		</h1>
 	{:else}
-		<h1 class="text-red-500 text-9xl">
+		<h1 class="text-white text-9xl font-sans font-bold text-shadow-lg shadow-amber-200">
 			{`${days} : ${hours} : ${mm} : ${ss}`}
 		</h1>
 	{/if}

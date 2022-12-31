@@ -3,7 +3,7 @@
 	import ClockBar from '../ClockBar.svelte';
 </script>
 
-<div class='bg-slate-800'>
+<div class='bg-fireworks '>
 	<ClockBar />
 	<Countdown />
 </div>
