@@ -24,14 +24,14 @@
 
 </script>
 
-<div class="flex items-center justify-center h-screen">
+<div class="flex items-center justify-center h-screen w-screen">
 	{#if days < 1}
 		<h1 class="text-white text-9xl font-sans font-bold drop-shadow text-shadow-lg shadow-blue-400">
 			{distance > 0 ? `${hh} : ${mm} : ${ss}` : 'BUON ANNO'}
 		</h1>
 	{:else}
 		<h1 class="text-white text-9xl font-sans font-bold text-shadow-lg shadow-blue-400">
-			{`${days} : ${hours} : ${mm} : ${ss}`}
+			{distance > 0 ? `${days} : ${hours} : ${mm} : ${ss}` : 'BUON ANNO'}
 		</h1>
 	{/if}
 </div>
