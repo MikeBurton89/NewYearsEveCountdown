@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	let countdownDate = new Date('Jan 01, 2024 00:00:01').getTime();
+	let countdownDate = new Date('Jan 01, 2023 00:00:01').getTime();
 	$: currentDate = new Date();
 	$: dateForDistance = currentDate.getTime();
 	console.log(currentDate);
