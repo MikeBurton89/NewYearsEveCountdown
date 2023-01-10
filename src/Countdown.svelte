@@ -27,7 +27,7 @@
 <div class="flex items-center justify-center h-screen">
 	{#if days < 1}
 		<h1 class="text-white text-9xl font-sans font-bold drop-shadow text-shadow-lg shadow-blue-400">
-			{`${hh} : ${mm} : ${ss}`}
+			{distance > 0 ? `${hh} : ${mm} : ${ss}` : 'BUON ANNO'}
 		</h1>
 	{:else}
 		<h1 class="text-white text-9xl font-sans font-bold text-shadow-lg shadow-blue-400">
